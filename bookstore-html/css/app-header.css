@@ -1,0 +1,30 @@
+header {
+  background: var(--neutral-color);
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+.bookstore-logo {
+  position: relative;
+  /* top: 20px; */
+  left: 100px;
+}
+
+.text-logo {
+  /* position: relative; */
+  left: 200px;
+  font-family: var(--title-font-family);
+}
+
+.search-bar {
+  position: relative;
+  right: 10px;
+  padding: 0.5em;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+  }
+}
