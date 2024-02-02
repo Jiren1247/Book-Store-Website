@@ -3,12 +3,13 @@
 }
 
 .categories-button {
-  background-color: var(--primary-color-dark);
+  background-color: white;
+  color: var(--default-text-color);
   margin-top: 0.25em;
 }
 
 .header-dropdown ul {
-  background-color: white;
+  background-color: #ded1e6;
   color: black;
   display: none;
 }

@@ -168,11 +168,13 @@ body {
 .button,
 .button:visited {
   display: inline-block;
-  background: var(--primary-color);
-  color: white;
+  /* background: var(--primary-color); */
+  background: white;
+  color: #853fa2;
   text-decoration: none;
   padding: 0.5em 1em;
   cursor: pointer;
+  border: 0px solid #853fa2;
 }
 
 .button:hover,

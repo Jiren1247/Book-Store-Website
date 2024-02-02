@@ -1,0 +1,73 @@
+header {
+  height: 12vh;
+  background: var(--neutral-color);
+  display: flex;
+  padding: 1em;
+  gap: 1em;
+}
+
+/* header {
+  width: 100%;
+  height: 12vh;
+  display: flex;
+  align-items: center;
+} */
+
+.bookstore-logo {
+  position: relative;
+  /* top: 20px; */
+  /* left: 300px; */
+}
+
+.bookstore-logo a,
+.bookstore-logo h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 25px;
+}
+
+.welcome-logo {
+  color: #97849f;
+  font-size: 10px;
+}
+
+
+.search-bar-total form {
+  width: 450px;
+  height: 100%;
+  position: relative; /* this is necessary!! */
+  /* left: 250px;
+  top: 90px; */
+  display: flex;
+  align-items: center;
+  /* 控制布局容器内的子元素，用于flex和grid； inline block是各个元素占一行，flex是整体的元素占一行 */
+  /* justify-content: flex-end; */
+}
+
+.header-dropdown-and-cart {
+  display:flex;
+  align-items: center;
+  position: relative;
+  left: 0px;
+  top: 0px;
+}
+
+.search-bar {
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  width: 95%;
+  height: 60%;
+  background: #ffffff;
+  box-shadow: 0px 10px 12px rgba(112, 112, 112, 0.05);
+  border-radius: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+@media (max-width: 1080px) {
+  header {
+    flex-direction: column;
+  }
+}
