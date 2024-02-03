@@ -2,15 +2,59 @@ footer {
   background: var(--secondary-background-color);
   display: flex;
   gap: 1em;
+  height: 12vh;
 }
 
-.links,
+.address-name,
+.icon-map-marker {
+  display: inline-block;
+  /* align-items: center; */
+  vertical-align: middle;
+  justify-content: center;
+  /* 水平居中 */
+}
+
+.address-name {
+  margin-left: 100px;
+}
+
+.icon-map-marker {
+  font-size: 34px;
+  /* margin-left: 10px; */
+}
+
+.fa.fa-copyright,
+p.copyright {
+  display: inline-block;
+  vertical-align: middle;
+  /* 可选：垂直居中对齐 */
+}
+
+
+.about-us,
 .social-media-icons {
   display: flex;
+  align-items: center;
   flex-direction: column;
 }
 
+.about-us a {
+  font-size: 12px;
+}
+
+.about-us {
+  margin-left: 200px;
+}
+
+
 .social-media-icons {
-  text-align: center;
-  gap: 0.25em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.social-media-icons a i {
+  font-size: 24px;
+  margin: 5px;
 }
