@@ -1,6 +1,7 @@
 footer {
   background: var(--secondary-background-color);
   display: flex;
+  align-items: center;
   gap: 1em;
   height: 12vh;
 }
@@ -13,9 +14,9 @@ footer {
   justify-content: center;
 }
 
-.address-name {
+/* .address-name {
   margin-left: 100px;
-}
+} */
 
 .icon-map-marker {
   font-size: 34px;
@@ -38,7 +39,7 @@ p.copyright {
 }
 
 .about-us a {
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .about-us {

@@ -12,7 +12,7 @@
 }
 
 .shop-now a img {
-  height:125px;
+  height:170px;
   width:auto;
   padding:0px 10px;
 }
@@ -30,11 +30,11 @@
 
 .shop-now-right h3 {
   margin-top:20px;
-  margin-left:100px;
+  margin-left:50px;
 }
 
 .button.shop-now-button {
-  margin-left: 120px;
+  margin-left: 60px;
   margin-top:10px;
   background-color: var(--primary-color);
   color: white;
