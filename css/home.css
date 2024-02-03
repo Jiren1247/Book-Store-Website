@@ -71,6 +71,7 @@
   margin-top: 100px;
 }
 
+.best-seller-right button,
 .button.buy-one-get-one {
   white-space: pre-line;
   background-color: #b40c0c;
@@ -79,5 +80,62 @@
 }
 
 .button.button.buy-one-get-one:hover {
-  background-color: #ff7a7a;
+  background-color: var(--primary-color-dark);
 }
+
+.best-seller-right {
+  width:100%;
+}
+.best-seller-right ul#book-boxes {
+  width:100%;
+  list-style-type: none; /* 去除列表样式 */
+  display: flex; /* 使用 Flexbox 布局 */
+  justify-content: space-between; /* 均匀分布各个书籍 */
+  flex-wrap: wrap; /* 防止换行，确保水平排列 */
+  padding: 0 50px; /* 去除默认内边距 */
+}
+
+.best-seller-right li.book-box {
+  width: calc(25% - 20px); /* 设置每个书籍卡片的宽度，可以根据需要调整 */
+  text-align: center; /* 文本居中对齐 */
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.book-image {
+  position:relative;
+}
+
+.button.read-now-button {
+  font-size: 10px;
+  position:absolute;
+  top:0;
+  right:0px;
+  background-color:white;
+  color:var(--primary-color);
+  padding:5px 10px;
+  border: none;
+  border-radius: 50px;
+}
+
+.button:hover,
+.button:active {
+  background: var(--primary-color-dark);
+  color: white;
+}
+
+.icon-read-now::before {
+  content: "📖";
+  margin-right: 5px;
+  font-family: FontAwesome;
+}
+
+.book-title {
+  font-weight: bold;
+}
+
+.book-author {
+  font-style: italic;
+}
+
