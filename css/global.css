@@ -176,6 +176,7 @@ body {
   padding: 0.5em 1em;
   cursor: pointer;
   border: 0px solid #853fa2;
+  font-weight: bold;
 }
 
 .button:hover,
