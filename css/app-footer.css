@@ -39,9 +39,9 @@ p.copyright {
   flex-direction: column;
 }
 
-
+.about-us h3,
 .about-us a {
-  font-size: 20px;
+  padding: 3px;
 }
 
 
