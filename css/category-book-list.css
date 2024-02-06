@@ -59,14 +59,22 @@
 } */
 
 .book-title {
+  font-size: 20px;
   font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 10px;
 }
 
 .book-author {
+  font-size: 18px;
+  padding: 5px;
   font-style: italic;
 }
 
 .book-price {
+  font-size: 18px;
   font-weight: bold;
   font-family: "Arial",sans-serif;
 }
+
+
