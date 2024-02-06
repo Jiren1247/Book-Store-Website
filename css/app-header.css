@@ -4,14 +4,15 @@ header {
   display: flex;
   /* padding: 1em;
   gap: 1em; */
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .bookstore-logo {
   position: relative;
+  width:40vh;
 }
 
 .bookstore-logo a,
@@ -19,7 +20,11 @@ header {
   display: inline-block;
   vertical-align: middle;
   /* margin-right: 25px; */
-  font-size: 50px;
+  /* font-size: 50px; */
+}
+
+.bookstore-logo img {
+  height:auto;
 }
 
 .welcome-logo {
@@ -30,7 +35,7 @@ header {
 
 .search-bar-total form {
   float: center;
-  width: 80vh;
+  width: 60vh;
   height: 80px;
   position: relative; /* this is necessary!! */
   /* left: 250px;
